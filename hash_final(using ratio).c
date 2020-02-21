@@ -27,7 +27,7 @@ int main()
 	libr *item;
 
 
-	fp=fopen("d_tough_choices.txt","r");
+	fp=fopen("f_libraries_of_the_world.txt","r");
 	int i,j,temp,n,max;
 	int books,lib,days;
 	int *score;
@@ -215,7 +215,7 @@ printf("score is %lf",hello);
 	fclose(fp);
 
 
-    fp=fopen("output4.txt","w");
+    fp=fopen("output6.txt","w");
     if(fp==NULL)
     {
         printf("\n\nno file");
