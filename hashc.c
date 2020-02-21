@@ -15,7 +15,6 @@ int main()
 {
 	FILE *fp;
 	libr *item;
-	bk *item2;
 	fp=fopen("f_libraries_of_the_world.txt","r");
 	int i,j,n,max;
 	int books,lib,days;
